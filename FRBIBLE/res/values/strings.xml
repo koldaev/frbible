@@ -1,8 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">FRBIBLE</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-
+    <string name="menu_settings">Réglages</string>
+    
+    <string name="language">fr</string>
+    
+	<string name="savingbook">Classeur est enregistré</string>
+	<string name="biblename">La Bible</string>
+	<string name="loadfontsize">Taille de la police chargée</string>
+	<string name="defaultfontsize">Augmenter la taille de la police</string>
+	<string name="newtestament">Le Nouveau Testament</string>
+	<string name="oldtestament">L\'Ancien Testament</string>
+	<string name="chapter">chapitre</string>
+	<string name="psalm">Psaume</string>
+	<string name="chapterchang">Sélection d\'un chapitre</string>
+	<string name="savebookmark">Bookmark</string>
+	<string name="loadbookmark">Télécharger onglet</string>
+	<string name="savechapter">Enregistrer chapitre</string>
+	<string name="savebook">Enregistrez le classeur</string>
+	<string name="savebase">Éloignez le socle</string>
+	<string name="smallfont">Police plus petite</string>
+	<string name="bigfont">Grands caractères</string>
+	<string name="exportprocess">Est exporté. Txt Veuillez patienter</string>
+	<string name="newfontsize">Nouvelle taille de police</string>
+	<string name="savingbookmark">Signet enregistré</string>
+	<string name="savingbase">Base de données SQLite stockée dans</string>
+	<string name="savingtext">Le texte est mémorisé dans</string>
+	<string name="enterword">Entrez un terme de recherche</string>
+	
+	<string name="findprocess">Recherche Veuillez patienter</string>
+	<string name="findofword">Word Search</string>
+	<string name="findresults">Résultats de la recherche</string>
+	<string name="matches">allumettes</string>
+	<string name="poem">verset</string>
+	<string name="loadprocess">Chargement Veuillez patienter</string>
+	
+	<string name="searchbutton">Trouver</string>
+	<string name="backbutton">Arrière</string>
+	<string name="forwardbutton">Avant</string>
+	
+	<string name="tosavexml">Enregistrer BibleXML</string>
+	<string name="savingxml">Le nouveau format XML</string>
 </resources>

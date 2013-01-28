@@ -12,15 +12,56 @@
 
 <Spinner
     android:id="@+id/spinner1"
-    android:layout_width="wrap_content"
+    android:layout_width="0dp"
     android:layout_weight="1"
     android:layout_height="50dp" />
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout3"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+
+<!-- android:background="@android:color/transparent"-->
+<ImageButton 
+android:contentDescription="@string/backbutton"
+android:id="@+id/buttonback" 
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_weight="0"
+android:src="@drawable/ic_menu_back"/>
     
 <Spinner
+    android:contentDescription="@string/biblename"
     android:id="@+id/spinner2"
     android:layout_width="wrap_content"
     android:layout_weight="0"
     android:layout_height="50dp" />
+
+<ImageButton 
+android:contentDescription="@string/forwardbutton"
+android:id="@+id/buttonforward" 
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_weight="0"
+android:src="@drawable/ic_menu_forward"/>
+
+<EditText
+    android:inputType="text"
+    android:id="@+id/editText1"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_weight="1"/>
+
+<Button
+    android:id="@+id/button1"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_weight="0"
+    android:text="@string/searchbutton" />
 
 </LinearLayout>
 
